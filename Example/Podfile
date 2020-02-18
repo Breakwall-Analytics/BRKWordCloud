@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BRKWordCloud_Example' do
+  pod 'BRKWordCloud', :path => '../'
+
+  target 'BRKWordCloud_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
