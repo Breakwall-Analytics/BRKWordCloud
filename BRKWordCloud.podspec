@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BRKWordCloud'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BRKWordCloud.'
+  s.summary          = 'A simple word cloud view'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is a view that presents a word cloud similar to wordle. It is based upon the implementation
+from LionAndLamb.
                        DESC
 
-  s.homepage         = 'https://github.com/arsinio/BRKWordCloud'
+  s.homepage         = 'https://github.com/Breakwall-Analytics/BRKWordCloud'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'arsinio' => 'christopher.armenio@breakwall.io' }
-  s.source           = { :git => 'https://github.com/arsinio/BRKWordCloud.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Breakwall-Analytics/BRKWordCloud.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'BRKWordCloud/Classes/**/*'
   

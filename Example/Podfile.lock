@@ -1,0 +1,16 @@
+PODS:
+  - BRKWordCloud (0.1.0)
+
+DEPENDENCIES:
+  - BRKWordCloud (from `../`)
+
+EXTERNAL SOURCES:
+  BRKWordCloud:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BRKWordCloud: 1ef03f45a899ce211a20158802640c47dafddb1b
+
+PODFILE CHECKSUM: 5ff3c132f19db8a995b8903a5cae0ac00ab66261
+
+COCOAPODS: 1.8.4
